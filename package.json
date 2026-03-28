@@ -1,0 +1,49 @@
+{
+  "name": "mcp-obsidian-bridge",
+  "version": "1.0.0",
+  "description": "Bridge local stdio MCP servers (like Obsidian) to Claude.ai via Streamable HTTP + OAuth + ngrok",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-bridge": "./bin/mcp-bridge.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js start",
+    "dev": "ts-node src/cli.ts start",
+    "setup": "node dist/cli.js setup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "obsidian",
+    "claude",
+    "bridge",
+    "stdio",
+    "ngrok",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.4.0",
+    "commander": "^12.0.0",
+    "express": "^4.21.0",
+    "inquirer": "^9.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.0",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist/",
+    "bin/",
+    "README.md"
+  ]
+}
