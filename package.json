@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "mcp-bridge": "./bin/mcp-bridge.js",
-    "mcp-obsidian-bridge": "./bin/mcp-bridge.js"
+    "mcp-bridge": "bin/mcp-bridge.js",
+    "mcp-obsidian-bridge": "bin/mcp-bridge.js"
   },
   "scripts": {
     "build": "tsc",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/josephwander-arch/mcp-obsidian-bridge"
+    "url": "git+https://github.com/josephwander-arch/mcp-obsidian-bridge.git"
   },
   "homepage": "https://github.com/josephwander-arch/mcp-obsidian-bridge#readme",
   "engines": {
