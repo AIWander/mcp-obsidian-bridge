@@ -28,9 +28,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josephwander-arch/mcp-obsidian-bridge.git"
+    "url": "git+https://github.com/AIWander/mcp-obsidian-bridge.git"
   },
-  "homepage": "https://github.com/josephwander-arch/mcp-obsidian-bridge#readme",
+  "homepage": "https://github.com/AIWander/mcp-obsidian-bridge#readme",
   "engines": {
     "node": ">=18.0.0"
   },
